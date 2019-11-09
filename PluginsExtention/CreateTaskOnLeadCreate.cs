@@ -19,6 +19,7 @@ namespace DynamicsCRMExtension.PluginsExtention
     /// <summary>
     /// PostOperationleadCreate Plugin.
     /// </summary>    
+    /// 
     public class CreateTaskOnLeadCreate: PluginBase
     {
         /// <summary>
