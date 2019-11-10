@@ -15,6 +15,7 @@ using System.Linq;
 using System.ServiceModel;
 using Microsoft.Xrm.Sdk;
 
+
 namespace DynamicsCRMExtension.PluginsExtention
 {
     /// <summary>
