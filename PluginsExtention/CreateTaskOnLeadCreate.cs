@@ -73,7 +73,7 @@ namespace DynamicsCRMExtension.PluginsExtention
 
                 Entity task = new Entity("task");
                 task["subject"] = "Task From Lead";
-                task["regardingobjectid"] = inputParameter;
+                task["regardingobjectid"] = new EntityReference(inputParameter.LogicalName,inputParameter.Id);
                 service.Create(task);
 
             }

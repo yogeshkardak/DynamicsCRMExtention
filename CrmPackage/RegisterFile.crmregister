@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
   <Solutions>
-    <Solution Assembly="DynamicsCRMExtension.PluginsExtention.dll" Id="00000000-0000-0000-0000-000000000000" IsolationMode="Sandbox" SourceType="Database">
+    <Solution Assembly="DynamicsCRMExtension.PluginsExtention.dll" Id="070182dc-8bf6-49d5-86f6-76caa909d617" IsolationMode="Sandbox" SourceType="Database">
       <PluginTypes>
         <clear />
-        <Plugin Description="Plug-in to Create of lead" FriendlyName="Create of lead" Name="DynamicsCRMExtension.PluginsExtention.CreateTaskOnLeadCreate" Id="00000000-0000-0000-0000-000000000000" TypeName="DynamicsCRMExtension.PluginsExtention.CreateTaskOnLeadCreate">
+        <Plugin Description="Plug-in to Create of lead" FriendlyName="Create of lead" Name="DynamicsCRMExtension.PluginsExtention.CreateTaskOnLeadCreate" Id="6aaca638-f9bd-4724-9ae3-10461f4f8c4a" TypeName="DynamicsCRMExtension.PluginsExtention.CreateTaskOnLeadCreate">
           <Steps>
             <clear />
-            <Step AsyncAutoDelete="false" Name="Create of lead" Description="Create of lead" Id="00000000-0000-0000-0000-000000000000" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="lead" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+            <Step AsyncAutoDelete="false" Name="Create of lead" Description="Create of lead" Id="025d80a1-8703-ea11-a811-000d3a35bdc2" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="lead" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
               <Images />
             </Step>
           </Steps>
